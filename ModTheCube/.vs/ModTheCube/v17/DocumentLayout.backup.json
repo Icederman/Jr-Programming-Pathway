@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\ModTheCube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8236BC0E-AC18-BD36-DAEF-D4293BE6213C}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\modthecube\\assets\\modthecube\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8236BC0E-AC18-BD36-DAEF-D4293BE6213C}|Assembly-CSharp.csproj|solutionrelative:assets\\modthecube\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cube.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\ModTheCube\\Assets\\ModTheCube\\Cube.cs",
+              "RelativeDocumentMoniker": "Assets\\ModTheCube\\Cube.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\ModTheCube\\Assets\\ModTheCube\\Cube.cs",
+              "RelativeToolTip": "Assets\\ModTheCube\\Cube.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:44:27.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
