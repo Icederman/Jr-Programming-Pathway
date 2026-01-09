@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 3\\assets\\scripts\\repeatbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\repeatbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 3\\assets\\scripts\\moveleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 3\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 3\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 3\\assets\\scripts\\repeatbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\repeatbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "RepeatBackground.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 3\\Assets\\Scripts\\RepeatBackground.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RepeatBackground.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 3\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
@@ -51,12 +51,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:57:58.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T16:57:58.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MoveLeft.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 3\\Assets\\Scripts\\MoveLeft.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveLeft.cs",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MoveLeft.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:54:52.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T16:54:52.531Z"
             },
             {
               "$type": "Document",
@@ -75,7 +73,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 3\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAA5wDgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T10:22:52.179Z",
               "EditorCaption": ""
