@@ -6,7 +6,7 @@ I am currently in a "Deep Work" phase—mastering the fundamentals of **C#** and
 ---
 
 ### 🛠️ What I'm working on
-- 🕹️ **Game Dev:** Building 3D prototypes to understand Physics and Logic.
+- 🕹️ **Game Dev:** Building prototypes to understand Physics and Logic.
 - 💻 **C#:** Studying Object-Oriented Programming (OOP).
 - 🇫🇮 **Localization:** Learning basic Finnish vocabulary.
 
