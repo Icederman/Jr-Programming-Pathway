@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 4\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 4\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\assets\\scripts\\camerarotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerarotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T16:33:49.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T16:33:49.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -55,19 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBAAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T14:11:32.994Z"
+              "WhenOpened": "2026-01-11T14:11:32.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CameraRotation.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 4\\Assets\\Scripts\\CameraRotation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraRotation.cs",

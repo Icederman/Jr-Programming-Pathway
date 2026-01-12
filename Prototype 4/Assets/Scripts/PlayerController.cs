@@ -13,11 +13,15 @@ public class PlayerController : MonoBehaviour
     private float powerupStrength = 15.0f; // Strength of the powerup effect
     public GameObject powerupIndicator; // Visual indicator for powerup status
 
+    private AudioSource playerAudio; // Reference to the player's AudioSource
+    public AudioClip powerupSound; // Sound played when powerup is collected
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        playerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -39,6 +43,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Powerup"))
         {
+            playerAudio.PlayOneShot(powerupSound, 1.0f);
             Destroy(other.gameObject);
 
             hasPowerup = true;
