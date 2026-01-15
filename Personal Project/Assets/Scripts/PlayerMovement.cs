@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    
     private Rigidbody rb;
 
     private float playerHealth = 100f;
@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject bulletPrefab;
 
     public bool isAlive = true;
+    public bool isGrounded = true;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -54,6 +55,12 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
         }
 
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isGrounded = false;
+        }
+
     }
 
 
@@ -63,10 +70,7 @@ private void FixedUpdate()
         rb.AddForce(Vector3.right * speed * horizontalInput);
         rb.AddForce(Vector3.forward * speed * verticalInput);
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        { 
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse); 
-        }
+       
             
         
 
@@ -87,21 +91,29 @@ private void FixedUpdate()
     {
         if(collision.gameObject.CompareTag("Enemy1"))
         {
-            Debug.Log("Player has collided with a knife holder!");
             playerHealth -= 10f;
+            Debug.Log("Player has collided with a knife holder! Health= " + playerHealth );
+            
 
         }
 
         else if(collision.gameObject.CompareTag("Enemy2"))
         {
-            Debug.Log("Player has collided with a chapati holder!");
             playerHealth -= 15f;
+            Debug.Log("Player has collided with a chapati holder! Health= " + playerHealth);
+            
         }
 
         else if(collision.gameObject.CompareTag("Rocket"))
         {
-            Debug.Log("Player has collided with a rocket!");
             playerHealth -= 25f;
+            Debug.Log("Player has collided with a rocket! Health= " + playerHealth);
+            
+        }
+
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
         }
 
     }

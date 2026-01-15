@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\personal project\\assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\personal project\\assets\\scripts\\rocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\assets\\scripts\\rocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\assets\\scripts\\camfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\personal project\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177895CB-4F47-3755-436B-A776DA2B4B54}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Rocket.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\Rocket.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rocket.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\Rocket.cs",
               "RelativeToolTip": "Assets\\Scripts\\Rocket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T17:28:05.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
@@ -68,31 +68,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CamFollow.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\CamFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CamFollow.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\CamFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\CamFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T16:16:53.973Z"
+              "WhenOpened": "2026-01-15T16:16:53.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T15:30:06.979Z"
+              "WhenOpened": "2026-01-15T15:30:06.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Boss.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\Boss.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Boss.cs",
@@ -100,12 +102,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Boss.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T15:17:21.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T15:17:21.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -124,7 +125,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Personal Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T18:25:02.958Z",
               "EditorCaption": ""
