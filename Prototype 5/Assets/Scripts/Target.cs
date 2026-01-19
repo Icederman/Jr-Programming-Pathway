@@ -9,13 +9,13 @@ public class Target : MonoBehaviour
     public AudioClip audioClip;
    
     private float minSpeed = 12f;
-    private float maxSpeed = 17f;
+    private float maxSpeed = 15f;
 
     
     private float maxTorque = 1f;
 
     private float xRange = 4f;
-    private float ySpawnPos = -6f;
+    private float ySpawnPos = -1f;
 
     public int pointValue;
     
@@ -42,16 +42,24 @@ public class Target : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Destroy(gameObject);
-        AudioSource.PlayClipAtPoint(audioClip, transform.position);
-        Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
-       
-        gameManager.UpdateScore(pointValue);
-    }
+        if (gameManager.isGameActive)
+        {
+            Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(audioClip, transform.position);
+            Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
+            gameManager.UpdateScore(pointValue);
+
+        }
+    }   
 
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+
+        if(!gameObject.CompareTag("Bad"))
+        {
+            gameManager.GameOver();
+        }
     }
 
 
