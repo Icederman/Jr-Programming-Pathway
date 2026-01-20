@@ -7,24 +7,31 @@ public class Enemy : MonoBehaviour
 
     Rigidbody rb; // Reference to the Rigidbody component
     GameObject player; // Reference to the player GameObject
+    private PlayerMovement playerMovement; // Reference to the player script
     public GameObject bullet;
+    public AudioClip bulletHitSound;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>(); // Get the Rigidbody component
-        player = GameObject.Find("Player"); // Find the player GameObject by name
+        player = GameObject.Find("Player");
+        playerMovement = player.GetComponent<PlayerMovement>();
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector3 direction = (player.transform.position - transform.position).normalized; // Calculate direction to the player
+        if (playerMovement.isAlive)
+        {
+            Vector3 direction = (player.transform.position - transform.position).normalized; // Calculate direction to the player
 
-        rb.AddForce(direction * speed); // Move the enemy towards the player
+            rb.AddForce(direction * speed); // Move the enemy towards the player
 
-        PlayerBoundary(); // Check and enforce player boundaries
-
+            PlayerBoundary(); // Check and enforce player boundaries
+        }
     }
 
     void PlayerBoundary()
@@ -36,11 +43,14 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
+        if (other.gameObject.CompareTag("Bullet"))
         {
+            
+            AudioSource.PlayClipAtPoint(bulletHitSound, transform.position);
             Destroy(gameObject); // Destroy the enemy on collision with a bullet
+            Debug.Log("Hit!");
         }
     }
 

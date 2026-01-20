@@ -68,7 +68,7 @@ public class SpawnManager : MonoBehaviour
             float spawnPosX = player.transform.position.x + 32;
             float spawnPosZ = Random.Range(-17f,7f);
 
-            Vector3 spawnPos = new Vector3(spawnPosX, 0.5f, spawnPosZ);
+            Vector3 spawnPos = new Vector3(spawnPosX, 0, spawnPosZ);
 
             if (waveNumber == 1)
             {

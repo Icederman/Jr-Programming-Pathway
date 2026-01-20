@@ -19,12 +19,14 @@ public class PlayerMovement : MonoBehaviour
     public bool isAlive = true;
     public bool isGrounded = true;
 
+    private Animator playerAnim;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        
+        playerAnim = GetComponent<Animator>();
 
 
     }
@@ -41,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Vector3 shotPos = new Vector3(transform.position.x + 1.5f, transform.position.y, transform.position.z);
+            Vector3 shotPos = new Vector3(transform.position.x + 1f, 2f, transform.position.z);
 
             Instantiate(bulletPrefab, shotPos, bulletPrefab.transform.rotation);
 
@@ -58,9 +60,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            playerAnim.SetTrigger("Jump_trig");
             isGrounded = false;
+
         }
 
+        MovementAnimation();
     }
 
 
@@ -68,7 +73,11 @@ private void FixedUpdate()
     {
         // Movement
         rb.AddForce(Vector3.right * speed * horizontalInput);
-        rb.AddForce(Vector3.forward * speed * verticalInput);
+
+        
+
+
+            rb.AddForce(Vector3.forward * speed * verticalInput);
 
        
             
@@ -104,12 +113,7 @@ private void FixedUpdate()
             
         }
 
-        else if(collision.gameObject.CompareTag("Rocket"))
-        {
-            playerHealth -= 25f;
-            Debug.Log("Player has collided with a rocket! Health= " + playerHealth);
-            
-        }
+       
 
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -117,6 +121,32 @@ private void FixedUpdate()
         }
 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+          if (other.gameObject.CompareTag("Rocket"))
+        {
+            playerHealth -= 25f;
+            Debug.Log("Player has collided with a rocket! Health= " + playerHealth);
+
+        }
+    }
+
+    public void MovementAnimation()
+    {
+        if (Input.GetKeyDown(KeyCode.D) && isAlive)
+        {
+            playerAnim.SetFloat("Speed_f", 0.4f);
+        }
+
+        else if (Input.GetKeyUp(KeyCode.D) && isAlive)
+        {
+            playerAnim.SetFloat("Speed_f", 0f);
+        }
+
+         
+    }
+
 
 
 

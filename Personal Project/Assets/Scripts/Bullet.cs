@@ -4,6 +4,7 @@ public class Bullet : MonoBehaviour
 {
     Rigidbody bullet;
     GameObject player;
+    PlayerMovement playerMovementScript;
 
     public float bulletSpeed = 20f;
 
@@ -11,7 +12,8 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         bullet = GetComponent<Rigidbody>();
-
+        player = GameObject.Find("Player");
+        playerMovementScript = player.GetComponent<PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -19,11 +21,13 @@ public class Bullet : MonoBehaviour
     {
         bullet.AddForce(Vector3.right * bulletSpeed, ForceMode.Acceleration);
 
-        player = GameObject.Find("Player");
 
-        if (transform.position.x > player.transform.position.x + 50f)
+        if (playerMovementScript.isAlive)
         {
-            Destroy(gameObject);
+            if (transform.position.x > player.transform.position.x + 50f)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

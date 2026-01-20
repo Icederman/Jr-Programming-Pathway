@@ -10,6 +10,7 @@ public class Boss : MonoBehaviour
     public float health = 100f; // Health of the boss
     public GameObject bullet;
     public GameObject rocket;
+    public AudioClip bossHitSound;
 
     private float startDelay;
     private float shotInterval;
@@ -61,15 +62,14 @@ public class Boss : MonoBehaviour
 
         if(playerScript.isAlive == false)
         {
+            rb.linearVelocity = Vector3.zero;
+
             CancelInvoke("BossShoot");
         }
     }
 
 
-    void FixedUpdate()
-    {
-        
-    }
+    
 
     void PlayerBoundary()
     {
@@ -83,17 +83,19 @@ public class Boss : MonoBehaviour
   
     
     
-   void OnCollisionEnter(Collision collision)
+   void OnTriggerEnter(Collider other)
     {
-        if(gameObject.CompareTag("Bullet"))
+        if(other.gameObject.CompareTag("Bullet"))
         {
+            AudioSource.PlayClipAtPoint(bossHitSound, transform.position, 1000f);
             health -= 10;
+            Debug.Log("You hit the boss! Boss Health: " + health);
         }
     }
 
     void BossShoot()
     {
-        Vector3 shotPos = new Vector3(transform.position.x - 1.5f, transform.position.y, transform.position.z);
+        Vector3 shotPos = new Vector3(transform.position.x - 1f, 1f, transform.position.z);
 
         Instantiate(rocket, shotPos, rocket.transform.rotation);
     }
