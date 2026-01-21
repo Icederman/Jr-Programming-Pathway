@@ -116,7 +116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8837908539092909493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a64ad6cc598d34a8aa1e3b6b465b43, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutofBounds
 --- !u!65 &7082832275161507354
