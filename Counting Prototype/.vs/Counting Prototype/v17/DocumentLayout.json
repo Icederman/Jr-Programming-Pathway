@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Counting Prototype\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17ECB9D9-2BB7-46F1-838C-9D7114611BBF}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\counting prototype\\assets\\scripts\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17ECB9D9-2BB7-46F1-838C-9D7114611BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17ECB9D9-2BB7-46F1-838C-9D7114611BBF}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\counting prototype\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17ECB9D9-2BB7-46F1-838C-9D7114611BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scanner.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Counting Prototype\\Assets\\Scripts\\Scanner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scanner.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Counting Prototype\\Assets\\Scripts\\Scanner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T21:05:26.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Counting Prototype\\Assets\\Scripts\\Ball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Counting Prototype\\Assets\\Scripts\\Ball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T20:10:31.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
