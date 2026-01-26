@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     private int ballCount; // To keep track of the number of balls in the scene
     public GameObject ballPrefab; // Reference to the ball prefab to be spawned
 
+    private bool oneTime = true; // To ensure game over sound plays only once
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -46,9 +48,10 @@ public class GameManager : MonoBehaviour
         }
 
         // If lives reach zero, trigger game over
-        if (lives == 0)
+        if (lives == 0 && oneTime)
         {
             GameOver();
+            oneTime = false; // Ensure this block runs only once
         }
 
     }

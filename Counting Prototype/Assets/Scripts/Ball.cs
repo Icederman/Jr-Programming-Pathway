@@ -18,8 +18,9 @@ public class Ball : MonoBehaviour
     public AudioClip shotSound; // Audio clip for ball shot sound effect
     public AudioClip barhit; // Audio clip for bar hit sound effect
     public AudioClip missSound; // Audio clip for miss sound effect
-    
 
+    public ParticleSystem ballHitTheBar; // Particle system for ball hitting the bar effect
+    public ParticleSystem goalMiss; // Particle system for goal miss effect
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -74,6 +75,7 @@ public class Ball : MonoBehaviour
             ballHitBar = true; // Set ballHitBar to true when the ball hits the goalpost
             ball.linearVelocity = Vector3.zero; // Stop the ball's movement
             Debug.Log("Ball hit the goalpost!"); 
+            Instantiate(ballHitTheBar, transform.position, transform.rotation); // Play particle effect at the ball's position
             Destroy(gameObject, 2f); // Destroy the ball after 2 seconds
         }
     }
@@ -85,6 +87,7 @@ public class Ball : MonoBehaviour
         // Check if the ball is out of defined boundaries and destroy it if so
         if (Mathf.Abs(transform.position.x ) > ballBoundaryX || Mathf.Abs(transform.position.z) > ballBoundaryZ)
         {
+            Instantiate(goalMiss, transform.position, transform.rotation); // Play miss particle effect at the ball's position
             Destroy(gameObject); // Destroy the ball if it goes out of bounds
             Debug.Log("You missed!");
             AudioSource.PlayClipAtPoint(missSound, Camera.main.transform.position); // Play miss sound effect

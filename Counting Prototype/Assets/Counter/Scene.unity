@@ -2141,6 +2141,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1712885948}
     - target: {fileID: 4497530039622569853, guid: 5048f870e02a9b5468a0971d2fa2de62, type: 3}
+      propertyPath: goalEffect
+      value: 
+      objectReference: {fileID: 2478549635105912040, guid: 737660620f6348543bedb5ac502ee7a2, type: 3}
+    - target: {fileID: 4497530039622569853, guid: 5048f870e02a9b5468a0971d2fa2de62, type: 3}
       propertyPath: CounterText
       value: 
       objectReference: {fileID: 1712885948}

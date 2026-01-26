@@ -156,3 +156,5 @@ MonoBehaviour:
   shotSound: {fileID: 8300000, guid: 29f58e635fad30c4a960229fd6122f6a, type: 3}
   barhit: {fileID: 8300000, guid: d60a22bd1b8b17d45b725805f0dee877, type: 3}
   missSound: {fileID: 8300000, guid: 548d0e33bf404be4db05e0cd720334bb, type: 3}
+  ballHitTheBar: {fileID: 7535607469619513247, guid: 664485d65cd2bbb44863c0ffee44aacc, type: 3}
+  goalMiss: {fileID: 2088871590894813759, guid: a2beea9779fb1e845a7aff0d66622bed, type: 3}
