@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 1\\assets\\challenge 1\\scripts\\propellerspinner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 1\\scripts\\propellerspinner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 1\\assets\\challenge 1\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 1\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\assets\\challenge 1\\scripts\\followplayerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 1\\scripts\\followplayerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,65 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PropellerSpinner.cs",
-              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "RelativeToolTip": "Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:47:30.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerControllerX.cs",
-              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs",
-              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs*",
-              "RelativeToolTip": "Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:28:19.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FollowPlayerX.cs",
-              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "RelativeToolTip": "Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:35:20.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "FollowPlayer.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\FollowPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FollowPlayer.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\FollowPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\FollowPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T14:51:15.251Z"
+              "WhenOpened": "2026-01-03T14:51:15.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -96,7 +43,8 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T13:43:11.237Z"
+              "WhenOpened": "2026-01-03T13:43:11.237Z",
+              "EditorCaption": ""
             }
           ]
         }

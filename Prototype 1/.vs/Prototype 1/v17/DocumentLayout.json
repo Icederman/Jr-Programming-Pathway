@@ -3,23 +3,11 @@
   "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 1\\assets\\scripts\\carobstacles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carobstacles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 1\\assets\\scripts\\cameraswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 1\\assets\\challenge 1\\scripts\\propellerspinner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 1\\scripts\\propellerspinner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\assets\\challenge 1\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 1\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\assets\\challenge 1\\scripts\\followplayerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 1\\scripts\\followplayerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,72 +27,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CarObstacles.cs",
-              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\CarObstacles.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CarObstacles.cs",
-              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\CarObstacles.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CarObstacles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Title": "CameraSwitcher.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\CameraSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraSwitcher.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\CameraSwitcher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraSwitcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T17:31:58.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PropellerSpinner.cs",
-              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "RelativeToolTip": "Assets\\Challenge 1\\Scripts\\PropellerSpinner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:47:30.615Z",
+              "WhenOpened": "2026-01-21T18:28:40.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerControllerX.cs",
-              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs",
-              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs*",
-              "RelativeToolTip": "Assets\\Challenge 1\\Scripts\\PlayerControllerX.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:28:19.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FollowPlayerX.cs",
-              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "RelativeToolTip": "Assets\\Challenge 1\\Scripts\\FollowPlayerX.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:35:20.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "FollowPlayer.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\FollowPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FollowPlayer.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\FollowPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\FollowPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T14:51:15.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 1\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -112,7 +59,8 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T13:43:11.237Z"
+              "WhenOpened": "2026-01-03T13:43:11.237Z",
+              "EditorCaption": ""
             }
           ]
         }

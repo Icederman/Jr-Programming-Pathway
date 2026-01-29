@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 5\\assets\\challenge 5\\scripts\\gamemanagerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\gamemanagerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\assets\\challenge 5\\scripts\\targetx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\targetx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 5\\assets\\challenge 5\\scripts\\destroyobjectx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\destroyobjectx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\prototype 5\\assets\\challenge 5\\scripts\\difficultybuttonx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\difficultybuttonx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DifficultyButtonX.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:52:41.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManagerX.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAwwF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:50:51.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestroyObjectX.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:48:06.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TargetX.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Prototype 5\\Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:46:35.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

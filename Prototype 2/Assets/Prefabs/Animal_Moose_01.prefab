@@ -276,7 +276,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1831418286200509430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a64ad6cc598d34a8aa1e3b6b465b43, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutofBounds
 --- !u!64 &-4597572664843973304
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1831418286200509430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c420c3692dccc554eaddc5ecf4fb3bb7, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &1834607039116625762
