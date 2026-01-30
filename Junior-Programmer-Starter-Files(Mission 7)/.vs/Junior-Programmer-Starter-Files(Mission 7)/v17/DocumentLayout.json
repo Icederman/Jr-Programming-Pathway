@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Junior-Programmer-Starter-Files(Mission 7)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22255090-1AC8-EF48-5CB0-014CBAF0ED1D}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\junior-programmer-starter-files(mission 7)\\assets\\scripts\\ui\\uimainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22255090-1AC8-EF48-5CB0-014CBAF0ED1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22255090-1AC8-EF48-5CB0-014CBAF0ED1D}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\junior-programmer-starter-files(mission 7)\\assets\\scripts\\menuuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22255090-1AC8-EF48-5CB0-014CBAF0ED1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIMainScene.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Junior-Programmer-Starter-Files(Mission 7)\\Assets\\Scripts\\UI\\UIMainScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMainScene.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Junior-Programmer-Starter-Files(Mission 7)\\Assets\\Scripts\\UI\\UIMainScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIMainScene.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T19:10:16.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuUIHandler.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Junior-Programmer-Starter-Files(Mission 7)\\Assets\\Scripts\\MenuUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuUIHandler.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Junior-Programmer-Starter-Files(Mission 7)\\Assets\\Scripts\\MenuUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuUIHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T17:25:06.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
