@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\mission 7 (resource management project)\\assets\\scripts\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\mission 7 (resource management project)\\assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "UserControl.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\UserControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UserControl.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\UserControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UserControl.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T18:16:47.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Unit.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\Unit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Unit.cs",
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuUIHandler.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\MenuUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuUIHandler.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MenuUIHandler.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T16:36:25.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T16:36:25.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainManager.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\MainManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainManager.cs",
