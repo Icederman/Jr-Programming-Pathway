@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\productivityunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\mission 7 (resource management project)\\assets\\scripts\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|d:\\unity_projects\\junior_programming\\icederman\\mission 7 (resource management project)\\assets\\scripts\\resourcepile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcepile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\assets\\scripts\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5692D51-04A9-4508-FFFB-56B4CAD67120}|Assembly-CSharp.csproj|D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\assets\\scripts\\menuuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResourcePile.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\ResourcePile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResourcePile.cs",
+              "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\ResourcePile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResourcePile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T15:23:17.214Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,14 +57,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProductivityUnit.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\ProductivityUnit.cs",
               "RelativeToolTip": "Assets\\Scripts\\ProductivityUnit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T17:09:17.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserControl.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\UserControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UserControl.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UserControl.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowEkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:16:47.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T18:16:47.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Unit.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\Unit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Unit.cs",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Unit.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAIwCIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T10:32:09.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T10:32:09.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MenuUIHandler.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\MenuUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuUIHandler.cs",
@@ -85,15 +100,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainManager.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\MainManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainManager.cs",
               "ToolTip": "D:\\Unity_Projects\\Junior_Programming\\Icederman\\Mission 7 (Resource Management Project)\\Assets\\Scripts\\MainManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T16:17:51.328Z"
+              "WhenOpened": "2026-01-31T16:17:51.328Z",
+              "EditorCaption": ""
             }
           ]
         }
