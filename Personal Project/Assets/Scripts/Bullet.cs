@@ -19,9 +19,18 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        BulletMovement();
+        BoundaryCheck();
+    }
+
+
+    private void BulletMovement()
+    {
         bullet.AddForce(Vector3.right * bulletSpeed, ForceMode.Acceleration);
+    }
 
-
+    private void BoundaryCheck()
+    {
         if (playerMovementScript.isAlive)
         {
             if (transform.position.x > player.transform.position.x + 50f)
@@ -30,4 +39,5 @@ public class Bullet : MonoBehaviour
             }
         }
     }
+
 }

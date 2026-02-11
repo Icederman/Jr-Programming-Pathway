@@ -14,7 +14,12 @@ public class CamFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
+    {
+        FollowPlayer();
+    }
+
+    private void FollowPlayer()
     {
         if (playerScript.isAlive == true)
         {

@@ -42,36 +42,17 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        startDelay = Random.Range(2f, 4f);
-        shotInterval = Random.Range(1f, 2f);
+        DeathCheck();
 
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        BossMovement();
 
-        if (playerScript.isAlive == true)
-        {
-            float zdirection = (player.transform.position.z - transform.position.z); // Calculate z direction of the player
-            Vector3 bossDirection = new Vector3(0, 0, zdirection).normalized; // Calculate direction to the player
-
-            rb.AddForce(bossDirection * speed); // Move the enemy towards the player
-
-            PlayerBoundary(); // Check and enforce player boundaries
-        }
-
-        if(playerScript.isAlive == false)
-        {
-            rb.linearVelocity = Vector3.zero;
-
-            CancelInvoke("BossShoot");
-        }
+        StopShoot();
     }
 
 
     
 
-    void PlayerBoundary()
+    void BossBoundary()
     {
         // Z-axis bottom boundary 
         if (transform.position.z < bottomBound)
@@ -100,8 +81,37 @@ public class Boss : MonoBehaviour
         Instantiate(rocket, shotPos, rocket.transform.rotation);
     }
     
-    
+    void BossMovement()
+    {
+        if (playerScript.isAlive == true)
+        {
+            float zdirection = (player.transform.position.z - transform.position.z); // Calculate z direction of the player
+            Vector3 bossDirection = new Vector3(0, 0, zdirection).normalized; // Calculate direction to the player
 
+            rb.AddForce(bossDirection * speed); // Move the enemy towards the player
+
+            BossBoundary(); // Check and enforce boss boundaries
+        }
+    }
+
+
+    void DeathCheck()
+    {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void StopShoot()
+    {
+        if (playerScript.isAlive == false)
+        {
+            rb.linearVelocity = Vector3.zero;
+
+            CancelInvoke("BossShoot");
+        }
+    }
 
 
 }

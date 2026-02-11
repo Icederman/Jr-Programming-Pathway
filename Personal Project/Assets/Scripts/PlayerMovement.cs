@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
+
     private Rigidbody rb;
 
     private float playerHealth = 100f;
@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isAlive = true;
     public bool isGrounded = true;
 
+    public bool pressedE = false;
+    public bool pressedSpace = false;
+
     private Animator playerAnim;
 
 
@@ -33,57 +36,41 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
+    {
         // Inputs
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
-        
+        DeathCheck();
+
         PlayerBoundary();
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Vector3 shotPos = new Vector3(transform.position.x + 1f, 2f, transform.position.z);
-
-            Instantiate(bulletPrefab, shotPos, bulletPrefab.transform.rotation);
-
+            pressedE = true;
         }
 
-        if(playerHealth <= 0)
-        {
-            
-            Debug.Log("Player has died! Game Over!");
-            Destroy(gameObject);
-            isAlive = false;
-        }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            playerAnim.SetTrigger("Jump_trig");
-            isGrounded = false;
-
+            pressedSpace = true;
         }
 
         MovementAnimation();
     }
 
 
-private void FixedUpdate()
+    private void FixedUpdate()
     {
-        // Movement
-        rb.AddForce(Vector3.right * speed * horizontalInput);
+        Movement();
 
-        
-
-
-            rb.AddForce(Vector3.forward * speed * verticalInput);
-
-       
-            
-        
+        Shoot();
 
 
+        if(isGrounded && pressedSpace)
+        {
+            Jump();
+        }
     }
 
 
@@ -98,22 +85,22 @@ private void FixedUpdate()
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("Enemy1"))
+        if (collision.gameObject.CompareTag("Enemy1"))
         {
             playerHealth -= 10f;
-            Debug.Log("Player has collided with a knife holder! Health= " + playerHealth );
-            
+            Debug.Log("Player has collided with a knife holder! Health= " + playerHealth);
+
 
         }
 
-        else if(collision.gameObject.CompareTag("Enemy2"))
+        else if (collision.gameObject.CompareTag("Enemy2"))
         {
             playerHealth -= 15f;
             Debug.Log("Player has collided with a chapati holder! Health= " + playerHealth);
-            
+
         }
 
-       
+
 
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -124,7 +111,7 @@ private void FixedUpdate()
 
     private void OnTriggerEnter(Collider other)
     {
-          if (other.gameObject.CompareTag("Rocket"))
+        if (other.gameObject.CompareTag("Rocket"))
         {
             playerHealth -= 25f;
             Debug.Log("Player has collided with a rocket! Health= " + playerHealth);
@@ -144,7 +131,43 @@ private void FixedUpdate()
             playerAnim.SetFloat("Speed_f", 0f);
         }
 
-         
+
+    }
+
+    public void Movement()
+    {
+        // Movement
+        rb.AddForce(Vector3.right * speed * horizontalInput);
+        rb.AddForce(Vector3.forward * speed * verticalInput);
+    }
+
+    public void Shoot()
+    {
+        if (pressedE)
+        {
+            Vector3 shotPos = new Vector3(transform.position.x, 2f, transform.position.z);
+            Instantiate(bulletPrefab, shotPos, bulletPrefab.transform.rotation);
+
+            pressedE = false;
+        }
+    }
+
+    public void Jump()
+    {
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        playerAnim.SetTrigger("Jump_trig");
+        isGrounded = false;
+        pressedSpace = false;
+    }
+
+    public void DeathCheck()
+    {
+        if (playerHealth <= 0)
+        {
+            Debug.Log("Player has died! Game Over!");
+            Destroy(gameObject);
+            isAlive = false;
+        }
     }
 
 

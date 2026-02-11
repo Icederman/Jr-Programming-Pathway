@@ -25,8 +25,11 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        MainSpawner();
+    }
 
+    void MainSpawner()
+    {
         enemy1Count = GameObject.FindGameObjectsWithTag("Enemy1").Length;
         enemy2Count = GameObject.FindGameObjectsWithTag("Enemy2").Length;
         enemy3Count = GameObject.FindGameObjectsWithTag("Enemy3").Length;
@@ -52,14 +55,12 @@ public class SpawnManager : MonoBehaviour
                 waveNumber++;
             }
 
-            else if (waveNumber == 4 && enemy3Count ==0)
+            else if (waveNumber == 4 && enemy3Count == 0)
             {
                 Debug.Log("You Win!");
             }
         }
     }
-
-
 
     void SpawnEnemyWave(int enemiesToSpawn)
     {

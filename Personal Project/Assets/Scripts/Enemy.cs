@@ -24,17 +24,23 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        EnemyMovement();
+    }
+
+    void EnemyMovement()
+    {
         if (playerMovement.isAlive)
         {
             Vector3 direction = (player.transform.position - transform.position).normalized; // Calculate direction to the player
 
             rb.AddForce(direction * speed); // Move the enemy towards the player
 
-            PlayerBoundary(); // Check and enforce player boundaries
+            EnemyBoundary(); // Check and enforce enemy boundaries
         }
     }
 
-    void PlayerBoundary()
+
+    void EnemyBoundary()
     {
         // Z-axis bottom boundary 
         if (transform.position.z < bottomBound)

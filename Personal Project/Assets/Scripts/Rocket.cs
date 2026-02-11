@@ -4,7 +4,7 @@ public class Rocket : MonoBehaviour
 {
     Rigidbody rocket;
     
-    private float rocketSpeed = 30f;
+    private float rocketSpeed = 20f;
     private float rocketBoundary = -18f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,11 +16,23 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        BoundaryCheck();
+        RocketMovement();
+    }
+
+    
+      
+  
+
+
+    private void RocketMovement()
+    {
         rocket.AddForce(Vector3.left * rocketSpeed, ForceMode.Acceleration);
+    }
 
-        
-
-        if ( transform.position.x < rocketBoundary)
+    private void BoundaryCheck()
+    {
+        if (transform.position.x < rocketBoundary)
         {
             Destroy(gameObject);
         }
