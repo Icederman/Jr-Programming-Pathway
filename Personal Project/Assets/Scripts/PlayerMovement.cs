@@ -6,21 +6,31 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
 
     private float playerHealth = 100f;
-    public float speed = 10f;
-    public float jumpForce;
+    [SerializeField] private float speed;
+
+
+    [SerializeField] private float jumpForce;
 
     private float horizontalInput;
     private float verticalInput;
 
     private float bottomBound = -17f;
 
-    public GameObject bulletPrefab;
+    [SerializeField] private GameObject bulletPrefab;
 
-    public bool isAlive = true;
-    public bool isGrounded = true;
+    private bool isAlive = true;
+    public bool IsAlive
+    {
+        get { return isAlive; }
 
-    public bool pressedE = false;
-    public bool pressedSpace = false;
+        private set { isAlive = value; }
+    }
+
+
+    private bool isGrounded = true;
+
+    private bool pressedE = false;
+    private bool pressedSpace = false;
 
     private Animator playerAnim;
 
@@ -30,46 +40,49 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         playerAnim = GetComponent<Animator>();
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Inputs
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        if (IsAlive)
 
-        DeathCheck();
+        { // Inputs
+            horizontalInput = Input.GetAxis("Horizontal");
+            verticalInput = Input.GetAxis("Vertical");
 
-        PlayerBoundary();
+            DeathCheck();
 
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            pressedE = true;
+            PlayerBoundary();
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                pressedE = true;
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+            {
+                pressedSpace = true;
+            }
+
+            MovementAnimation();
         }
-
-
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            pressedSpace = true;
-        }
-
-        MovementAnimation();
     }
 
 
     private void FixedUpdate()
     {
-        Movement();
-
-        Shoot();
-
-
-        if(isGrounded && pressedSpace)
+        if (IsAlive)
         {
-            Jump();
+            Movement();
+
+            Shoot();
+
+            if (isGrounded && pressedSpace)
+            {
+                Jump();
+            }
         }
     }
 
@@ -121,12 +134,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void MovementAnimation()
     {
-        if (Input.GetKeyDown(KeyCode.D) && isAlive)
+        if (Input.GetKeyDown(KeyCode.D))
         {
             playerAnim.SetFloat("Speed_f", 0.4f);
         }
 
-        else if (Input.GetKeyUp(KeyCode.D) && isAlive)
+        else if (Input.GetKeyUp(KeyCode.D))
         {
             playerAnim.SetFloat("Speed_f", 0f);
         }
@@ -166,7 +179,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Player has died! Game Over!");
             Destroy(gameObject);
-            isAlive = false;
+            IsAlive = false;
         }
     }
 

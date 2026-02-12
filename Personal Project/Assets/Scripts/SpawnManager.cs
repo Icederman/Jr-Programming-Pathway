@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject[] enemies;
+    [SerializeField] public GameObject[] enemies;
 
     private float waveNumber = 1;
 
@@ -13,7 +13,7 @@ public class SpawnManager : MonoBehaviour
     private int enemy2Count;
     private int enemy3Count;
 
-    
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,7 +25,10 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MainSpawner();
+        if (playerScript.IsAlive)
+        {
+            MainSpawner();
+        }
     }
 
     void MainSpawner()
@@ -35,7 +38,7 @@ public class SpawnManager : MonoBehaviour
         enemy3Count = GameObject.FindGameObjectsWithTag("Enemy3").Length;
 
 
-        if (enemy1Count == 0 && playerScript.isAlive == true)
+        if (enemy1Count == 0)
         {
             if (waveNumber == 1 && player.transform.position.x > 10)
             {
@@ -67,28 +70,28 @@ public class SpawnManager : MonoBehaviour
         for (int i = 0; i < enemiesToSpawn; i++)
         {
             float spawnPosX = player.transform.position.x + 32;
-            float spawnPosZ = Random.Range(-17f,7f);
+            float spawnPosZ = Random.Range(-17f, 7f);
 
             Vector3 spawnPos = new Vector3(spawnPosX, 0, spawnPosZ);
 
             if (waveNumber == 1)
             {
-               Instantiate(enemies[0], spawnPos, enemies[0].transform.rotation);
-                
+                Instantiate(enemies[0], spawnPos, enemies[0].transform.rotation);
+
             }
 
             else if (waveNumber == 2)
             {
-               
+
                 Instantiate(enemies[1], spawnPos, enemies[1].transform.rotation);
-                
+
             }
 
             else if (waveNumber == 3)
             {
-               
+
                 Instantiate(enemies[2], spawnPos, enemies[2].transform.rotation);
-                
+
             }
 
         }

@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0d400829fb48d4fa64e4a9fcfda74e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  speed: 15
+  speed: 3
   bullet: {fileID: 85091542809799409, guid: fbcfd4785b9773a48aa40a4ddff16035, type: 3}
   bulletHitSound: {fileID: 8300000, guid: ad1e7e92faf364edea5027d7c47ed724, type: 3}
 --- !u!1001 &7004497211942420893

@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 5.0f; // Speed of the enemy movement
+    [SerializeField] private float speed; // Speed of the enemy movement
     private float bottomBound = -17.0f; // Z-axis bottom boundary
 
-    Rigidbody rb; // Reference to the Rigidbody component
-    GameObject player; // Reference to the player GameObject
+    private Rigidbody rb; // Reference to the Rigidbody component
+    private GameObject player; // Reference to the player GameObject
     private PlayerMovement playerMovement; // Reference to the player script
     public GameObject bullet;
     public AudioClip bulletHitSound;
@@ -18,25 +18,27 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody>(); // Get the Rigidbody component
         player = GameObject.Find("Player");
         playerMovement = player.GetComponent<PlayerMovement>();
-        
+
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        EnemyMovement();
+        if (playerMovement.IsAlive)
+        {
+            EnemyMovement();
+        }
     }
 
     void EnemyMovement()
     {
-        if (playerMovement.isAlive)
-        {
-            Vector3 direction = (player.transform.position - transform.position).normalized; // Calculate direction to the player
 
-            rb.AddForce(direction * speed); // Move the enemy towards the player
+        Vector3 direction = (player.transform.position - transform.position).normalized; // Calculate direction to the player
 
-            EnemyBoundary(); // Check and enforce enemy boundaries
-        }
+        rb.AddForce(direction * speed); // Move the enemy towards the player
+
+        EnemyBoundary(); // Check and enforce enemy boundaries
+
     }
 
 
@@ -53,7 +55,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            
+
             AudioSource.PlayClipAtPoint(bulletHitSound, transform.position);
             Destroy(gameObject); // Destroy the enemy on collision with a bullet
             Debug.Log("Hit!");

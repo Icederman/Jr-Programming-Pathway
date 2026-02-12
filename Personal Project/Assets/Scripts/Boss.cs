@@ -4,10 +4,10 @@ using System.Collections;
 
 public class Boss : MonoBehaviour
 {
-    public float speed = 5.0f; // Speed of the enemy movement
+    [SerializeField] private float speed = 5.0f; // Speed of the enemy movement
     private float bottomBound = -17.0f; // Z-axis bottom boundary
 
-    public float health = 100f; // Health of the boss
+    private float health = 100f; // Health of the boss
     public GameObject bullet;
     public GameObject rocket;
     public AudioClip bossHitSound;
@@ -27,7 +27,7 @@ public class Boss : MonoBehaviour
         playerScript = player.GetComponent<PlayerMovement>(); // Get the PlayerMovement script from the player
 
 
-        
+
         startDelay = Random.Range(2f, 4f);
         shotInterval = Random.Range(1f, 2f);
 
@@ -42,15 +42,21 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DeathCheck();
+        if (playerScript.IsAlive)
+        {
+            DeathCheck();
 
-        BossMovement();
+            BossMovement();
+        }
 
-        StopShoot();
+        else
+        {
+            StopShoot();
+        }
     }
 
 
-    
+
 
     void BossBoundary()
     {
@@ -61,12 +67,12 @@ public class Boss : MonoBehaviour
         }
     }
 
-  
-    
-    
-   void OnTriggerEnter(Collider other)
+
+
+
+    void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Bullet"))
+        if (other.gameObject.CompareTag("Bullet"))
         {
             AudioSource.PlayClipAtPoint(bossHitSound, transform.position, 1000f);
             health -= 10;
@@ -80,18 +86,17 @@ public class Boss : MonoBehaviour
 
         Instantiate(rocket, shotPos, rocket.transform.rotation);
     }
-    
+
     void BossMovement()
     {
-        if (playerScript.isAlive == true)
-        {
-            float zdirection = (player.transform.position.z - transform.position.z); // Calculate z direction of the player
-            Vector3 bossDirection = new Vector3(0, 0, zdirection).normalized; // Calculate direction to the player
 
-            rb.AddForce(bossDirection * speed); // Move the enemy towards the player
+        float zdirection = (player.transform.position.z - transform.position.z); // Calculate z direction of the player
+        Vector3 bossDirection = new Vector3(0, 0, zdirection).normalized; // Calculate direction to the player
 
-            BossBoundary(); // Check and enforce boss boundaries
-        }
+        rb.AddForce(bossDirection * speed); // Move the enemy towards the player
+
+        BossBoundary(); // Check and enforce boss boundaries
+
     }
 
 
@@ -105,12 +110,10 @@ public class Boss : MonoBehaviour
 
     void StopShoot()
     {
-        if (playerScript.isAlive == false)
-        {
-            rb.linearVelocity = Vector3.zero;
 
-            CancelInvoke("BossShoot");
-        }
+        rb.linearVelocity = Vector3.zero;
+        CancelInvoke("BossShoot");
+
     }
 
 

@@ -19,8 +19,16 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        BulletMovement();
-        BoundaryCheck();
+        if (playerMovementScript.IsAlive)
+        {
+            BulletMovement();
+            BoundaryCheck();
+        }
+
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
 
@@ -31,13 +39,11 @@ public class Bullet : MonoBehaviour
 
     private void BoundaryCheck()
     {
-        if (playerMovementScript.isAlive)
+        if (transform.position.x > player.transform.position.x + 50f)
         {
-            if (transform.position.x > player.transform.position.x + 50f)
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
+
     }
 
 }
