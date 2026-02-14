@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FirstEnemy : Enemy
+public class FirstEnemy : Enemy //INHERITANCE
 {
     protected override void Start()
     {

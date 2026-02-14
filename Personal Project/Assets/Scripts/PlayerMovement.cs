@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private GameObject bulletPrefab;
 
+
+    //ENCAPSULATION
     private bool isAlive = true;
     public bool IsAlive
     {
@@ -53,9 +55,9 @@ public class PlayerMovement : MonoBehaviour
             horizontalInput = Input.GetAxis("Horizontal");
             verticalInput = Input.GetAxis("Vertical");
 
-            DeathCheck();
+            DeathCheck(); //ABSTRACTION
 
-            PlayerBoundary();
+            PlayerBoundary(); //ABSTRACTION
 
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -68,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
                 pressedSpace = true;
             }
 
-            MovementAnimation();
+            MovementAnimation(); //ABSTRACTION
         }
     }
 
@@ -77,13 +79,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (IsAlive)
         {
-            Movement();
+            Movement(); //ABSTRACTION
 
-            Shoot();
+            Shoot(); //ABSTRACTION
 
             if (isGrounded && pressedSpace)
             {
-                Jump();
+                Jump(); //ABSTRACTION
             }
         }
     }

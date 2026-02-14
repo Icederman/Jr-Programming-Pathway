@@ -16,6 +16,7 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //ABSTRACTION
         BoundaryCheck();
         RocketMovement();
     }

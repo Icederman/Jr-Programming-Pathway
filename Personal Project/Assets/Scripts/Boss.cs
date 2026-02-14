@@ -44,14 +44,14 @@ public class Boss : MonoBehaviour
     {
         if (playerScript.IsAlive)
         {
-            DeathCheck();
+            DeathCheck(); //ABSTRACTION
 
-            BossMovement();
+            BossMovement(); //ABSTRACTION
         }
 
         else
         {
-            StopShoot();
+            StopShoot(); //ABSTRACTION
         }
     }
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SecondEnemy : Enemy
+public class SecondEnemy : Enemy //INHERITANCE
 {
    
     private float health = 100;
@@ -23,12 +23,15 @@ public class SecondEnemy : Enemy
         }
     }
 
+
+    //POLYMORPHISM
     protected override void Start()
     {
         speed -= 1f;
         base.Start();
     }
 
+    //POLYMORPHISM
     protected override void Update()
     {
         if (Health <= 0)
@@ -38,8 +41,8 @@ public class SecondEnemy : Enemy
 
         base.Update();
     }
-  
 
+    //POLYMORPHISM
     protected override void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Bullet"))

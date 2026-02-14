@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
     {
         if (playerMovement.IsAlive)
         {
-            EnemyMovement();
+            EnemyMovement(); //ABSTRACTION
         }
     }
 

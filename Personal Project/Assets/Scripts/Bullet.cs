@@ -21,6 +21,7 @@ public class Bullet : MonoBehaviour
     {
         if (playerMovementScript.IsAlive)
         {
+            //ABSTRACTION
             BulletMovement();
             BoundaryCheck();
         }

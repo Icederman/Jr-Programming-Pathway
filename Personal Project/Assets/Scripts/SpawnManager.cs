@@ -27,7 +27,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (playerScript.IsAlive)
         {
-            MainSpawner();
+            MainSpawner(); //ABSTRACTION
         }
     }
 
