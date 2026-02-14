@@ -34,6 +34,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator playerAnim;
 
+    [SerializeField] private AudioClip shotSound;
+    [SerializeField] private AudioClip rocketHitSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -127,6 +129,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Rocket"))
         {
             playerHealth -= 25f;
+            AudioSource.PlayClipAtPoint(rocketHitSound, Camera.main.transform.position);
             Debug.Log("Player has collided with a rocket! Health= " + playerHealth);
 
         }
@@ -160,6 +163,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 shotPos = new Vector3(transform.position.x, 2f, transform.position.z);
             Instantiate(bulletPrefab, shotPos, bulletPrefab.transform.rotation);
+            AudioSource.PlayClipAtPoint(shotSound, Camera.main.transform.position);
 
             pressedE = false;
         }

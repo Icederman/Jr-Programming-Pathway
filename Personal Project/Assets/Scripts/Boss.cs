@@ -10,7 +10,7 @@ public class Boss : MonoBehaviour
     private float health = 100f; // Health of the boss
     public GameObject bullet;
     public GameObject rocket;
-    public AudioClip bossHitSound;
+    [SerializeField] private AudioClip bossHitSound; // Sound to play when the boss is hit
 
     private float startDelay;
     private float shotInterval;
@@ -74,7 +74,7 @@ public class Boss : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            AudioSource.PlayClipAtPoint(bossHitSound, transform.position, 1000f);
+            AudioSource.PlayClipAtPoint(bossHitSound, Camera.main.transform.position);
             health -= 10;
             Debug.Log("You hit the boss! Boss Health: " + health);
         }

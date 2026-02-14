@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3368426904647910417}
   - component: {fileID: 4738245639406711428}
   - component: {fileID: 6159746622428171928}
-  - component: {fileID: 1457282816332327505}
+  - component: {fileID: 5527875504009278747}
   m_Layer: 0
   m_Name: KnifeHolders
   m_TagString: Enemy1
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!114 &1457282816332327505
+--- !u!114 &5527875504009278747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,12 +151,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1467899026310319265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb0d400829fb48d4fa64e4a9fcfda74e, type: 3}
+  m_Script: {fileID: 11500000, guid: e37d2f150fcf8274fb73700951fe05ca, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  m_EditorClassIdentifier: Assembly-CSharp::FirstEnemy
   speed: 3
   bullet: {fileID: 85091542809799409, guid: fbcfd4785b9773a48aa40a4ddff16035, type: 3}
-  bulletHitSound: {fileID: 8300000, guid: ad1e7e92faf364edea5027d7c47ed724, type: 3}
+  bulletHitSound: {fileID: 8300000, guid: 7c2de8e149d8346748fb31ed14cc7986, type: 3}
 --- !u!1001 &7004497211942420893
 PrefabInstance:
   m_ObjectHideFlags: 0

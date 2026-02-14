@@ -155,10 +155,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boss
   speed: 15
-  health: 100
   bullet: {fileID: 85091542809799409, guid: fbcfd4785b9773a48aa40a4ddff16035, type: 3}
   rocket: {fileID: 7536949163668511665, guid: 92318474b9aad3840a4ad5df8bab1264, type: 3}
-  bossHitSound: {fileID: 8300000, guid: 2a921313c927f45238a0b8baabe3ab12, type: 3}
+  bossHitSound: {fileID: 8300000, guid: 7c2de8e149d8346748fb31ed14cc7986, type: 3}
 --- !u!1001 &4282804257718372549
 PrefabInstance:
   m_ObjectHideFlags: 0

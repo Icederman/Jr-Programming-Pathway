@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private float speed; // Speed of the enemy movement
-    private float bottomBound = -17.0f; // Z-axis bottom boundary
+    [SerializeField] protected float speed = 3; // Speed of the enemy movement
+    protected float bottomBound = -17.0f; // Z-axis bottom boundary
 
-    private Rigidbody rb; // Reference to the Rigidbody component
-    private GameObject player; // Reference to the player GameObject
-    private PlayerMovement playerMovement; // Reference to the player script
-    public GameObject bullet;
-    public AudioClip bulletHitSound;
+    protected Rigidbody rb; // Reference to the Rigidbody component
+    protected GameObject player; // Reference to the player GameObject
+    protected PlayerMovement playerMovement; // Reference to the player script
+    [SerializeField] protected GameObject bullet;
+    [SerializeField] protected AudioClip bulletHitSound;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+   protected virtual void Start()
     {
         rb = GetComponent<Rigidbody>(); // Get the Rigidbody component
         player = GameObject.Find("Player");
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         if (playerMovement.IsAlive)
         {
@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void EnemyMovement()
+    protected virtual void EnemyMovement()
     {
 
         Vector3 direction = (player.transform.position - transform.position).normalized; // Calculate direction to the player
@@ -42,7 +42,7 @@ public class Enemy : MonoBehaviour
     }
 
 
-    void EnemyBoundary()
+    protected virtual void EnemyBoundary()
     {
         // Z-axis bottom boundary 
         if (transform.position.z < bottomBound)
@@ -51,12 +51,12 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    protected virtual void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
 
-            AudioSource.PlayClipAtPoint(bulletHitSound, transform.position);
+            AudioSource.PlayClipAtPoint(bulletHitSound, Camera.main.transform.position);
             Destroy(gameObject); // Destroy the enemy on collision with a bullet
             Debug.Log("Hit!");
         }

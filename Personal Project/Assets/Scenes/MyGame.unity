@@ -2203,6 +2203,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 24182597466746538, guid: 398c7a4d93deef94eb4a9daa517d0e4d, type: 3}
+      propertyPath: shotSound
+      value: 
+      objectReference: {fileID: 8300000, guid: eb8998f3b3d3a49db96a634bf39ed153, type: 3}
+    - target: {fileID: 24182597466746538, guid: 398c7a4d93deef94eb4a9daa517d0e4d, type: 3}
+      propertyPath: rocketHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ad1e7e92faf364edea5027d7c47ed724, type: 3}
     - target: {fileID: 3885289869668280402, guid: 398c7a4d93deef94eb4a9daa517d0e4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.62927
