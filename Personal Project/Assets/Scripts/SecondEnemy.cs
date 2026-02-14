@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class SecondEnemy : Enemy //INHERITANCE
 {
-   
+
+    //ENCAPSULATION
     private float health = 100;
 
     private float Health
